@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+@theme {
+  /* Keep only custom colors/spacing here if you have any */
+}
+
+/* Move this OUTSIDE the curly braces */
+@variant dark (&:where(.dark, .dark *));
